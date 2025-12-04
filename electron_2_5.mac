@@ -1,0 +1,37 @@
+#ELECTRONS
+#2.5 CM LYSO
+
+#RUN 0
+/gun/particle e-
+/gun/energy 240 MeV
+/run/beamOn 100000
+
+#RUN 1
+/gun/particle e-
+/gun/energy 120 MeV
+/run/beamOn 100000
+
+#RUN 2
+/gun/particle e-
+/gun/energy 90 MeV
+/run/beamOn 100000
+
+#RUN 3
+/gun/particle e-
+/gun/energy 60 MeV
+/run/beamOn 100000
+
+#RUN 4
+/gun/particle e-
+/gun/energy 50 MeV
+/run/beamOn 100000
+
+#RUN 5
+/gun/particle e-
+/gun/energy 40 MeV
+/run/beamOn 100000
+
+#RUN 6
+/gun/particle e-
+/gun/energy 30 MeV
+/run/beamOn 100000

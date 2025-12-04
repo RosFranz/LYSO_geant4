@@ -1,0 +1,62 @@
+#PROTON
+#2.5 CM OF LYSO 
+#1MM OF ALUMINIUM
+
+#MULTITHREADING
+# for multithreading you have to delete the 'runManager->Initialize();'
+# in lyso_bt.cc (main file of the project)
+#/run/numberOfThreads 4
+#/run/initialize
+
+
+#RUN 0
+/gun/energy 228 MeV
+/run/beamOn 100000
+
+#RUN 1
+/gun/energy 220 MeV
+/run/beamOn 100000
+
+#RUN 2
+/gun/energy 202 MeV
+/run/beamOn 100000
+
+#RUN 3
+/gun/energy 179 MeV
+/run/beamOn 100000
+
+#RUN 4
+/gun/energy 154 MeV
+/run/beamOn 100000
+
+#RUN 5
+/gun/energy 143 MeV
+/run/beamOn 100000
+
+#RUN 6
+/gun/energy 131 MeV
+/run/beamOn 100000
+
+#RUN 7
+/gun/energy 125 MeV
+/run/beamOn 100000
+
+#RUN 8
+/gun/energy 119 MeV
+/run/beamOn 100000
+
+#RUN 9
+/gun/energy 112 MeV
+/run/beamOn 100000
+
+#RUN 10
+/gun/energy 106 MeV
+/run/beamOn 100000
+
+#RUN 11
+/gun/energy 91 MeV
+/run/beamOn 100000
+
+#RUN 12
+/gun/energy 70 MeV
+/run/beamOn 100000

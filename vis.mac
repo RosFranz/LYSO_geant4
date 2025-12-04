@@ -1,0 +1,17 @@
+#MULTITHREADING
+#after having removed the initialization of the run manager from
+#the main file, the vis macro has to initialize the geometry
+#/run/initialize
+
+/vis/open OGL
+/vis/viewer/set/viewpointVector 1 0.5 1
+
+/vis/drawVolume
+
+/vis/scene/add/axes 0 0 0 30 cm
+/vis/scene/add/scale 30 cm
+/vis/scene/add/eventID
+
+/vis/viewer/set/autoRefresh true
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate

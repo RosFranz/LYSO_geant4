@@ -1,0 +1,22 @@
+#PROTON
+#15 CM LYSO
+
+#RUN 0
+/gun/energy 228 MeV
+/run/beamOn 100000
+
+#RUN 1
+/gun/energy 220 MeV
+/run/beamOn 100000
+
+#RUN 2
+/gun/energy 143 MeV
+/run/beamOn 100000
+
+#RUN 3
+/gun/energy 100 MeV
+/run/beamOn 100000
+
+#RUN 4
+/gun/energy 70 MeV
+/run/beamOn 100000
